@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wissal Nyati - Customer Service Professional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #6C63FF;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 1rem;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-section {
+            background: white;
+            padding: 2rem;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #6C63FF;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill-item {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        a {
+            color: #6C63FF;
+            text-decoration: none;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #6C63FF;
+            color: white!important;
+            padding: 10px 20px;
+            border-radius: 25px;
+            margin-top: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .fa-download {
+            margin-right: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .profile-photo {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-photo">
+            <img src="your-photo.jpg" alt="Wissal Nyati Professional Photo">
+        </div>
+        <h1>Wissal Nyati</h1>
+        <p>Customer Service Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <section class="profile-section">
+            <h2>About Me</h2>
+            <p>A motivated and articulate individual with strong communication skills, passionate about delivering exceptional customer service. Fluent in multiple languages with a natural ability to connect with people and resolve inquiries efficiently.</p>
+        </section>
+
+        <section class="profile-section">
+            <h2>Key Skills</h2>
+            <div class="skills">
+                <div class="skill-item">🗣️ Fluent Communication</div>
+                <div class="skill-item">💻 Computer Literacy</div>
+                <div class="skill-item">🤝 Team Collaboration</div>
+                <div class="skill-item">⏰ Time Management</div>
+                <div class="skill-item">🌍 Multilingual Support</div>
+                <div class="skill-item">😃 Patient & Empathetic</div>
+            </div>
+        </section>
+
+        <section class="profile-section">
+            <h2>Language Proficiency</h2>
+            <div class="skills">
+                <div class="skill-item">Arabic (Native)</div>
+                <div class="skill-item">English (Fluent)</div>
+                <div class="skill-item">French (Intermediate)</div>
+            </div>
+        </section>
+
+        <div class="contact-info">
+            <h2>Let's Connect!</h2>
+            <p>📧 <a href="mailto:wissalnyati054@gmail.com">wissalnyati054@gmail.com</a></p>
+            <p>📱 <a href="tel:+21627323730">+216 27 323 730</a></p>
+            <a href="mailto:wissalnyati054@gmail.com" class="cta-button">Contact Me</a>
+            <a href="your-cv.pdf" class="cta-button" download>
+                <i class="fas fa-download"></i> Download Full CV
+            </a>
+        </div>
+    </div>
+</body>
+</html>
